@@ -1,0 +1,95 @@
+body
+{
+    background-color: #dedede;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.Card
+{
+    position: relative;
+    text-align: center;
+    width: 280px;
+    height: 300px;
+    border-radius: 124% 82% 69% 93%;
+    display: table;
+    padding: 20px;
+    background-color: rgba(160, 160, 160, 0.9);
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.5s;
+    color: #fff;
+}
+.Card::before,
+.Card::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: Rotate 5s linear infinite; 
+}
+.Card::before
+{
+    border-radius: 138% 152% 192% 96%;
+    background-color: rgba(170, 170, 170, 0.7);
+    animation-delay: 0.5s;
+    transition: 0.5s;
+}
+.Card::after
+{
+    border-radius: 144% 88% 66% 98%;
+    background-color: rgba(225, 225, 225, 0.7);
+    animation-delay: 0.25s;
+    transition: 0.5s; 
+}
+.Card:hover
+{
+    background-color: rgba(225, 225, 225, 0.8);
+    color: rgba(225, 225, 225, 1);
+}
+.Card:hover:after
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.Card:hover::before
+{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.Card div
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+.Card div h2
+{
+    font-size: 25px;
+}
+.Card div p
+{
+    font-size: 18px;
+    margin-top: 20px;
+}
+@keyframes Rotate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.a1
+{
+    color: #9c8f8f;
+    text-decoration: none;
+    
+}
