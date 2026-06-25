@@ -1,16 +1,23 @@
-## Hi there 👋
+# Hi 👋 I'm a Developer
 
-<!--
-**Lordy3D/Lordy3D** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 14 y/o developer focused on GTA V modding (FiveM & RageMP)
 
-Here are some ideas to get you started:
+## 💻 About Me
+- Backend-focused developer
+- 6 years of coding experience
+- Own FiveM server
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Tech Stack
+- JavaScript / Node.js
+- C++ / C#
+- MySQL
+- Unreal Engine
+- HTML / CSS
+
+## 🎯 Goals
+- Become a Software Architect
+- Build large-scale systems
+
+## 📫 Contact
+- GitHub: https://github.com/Lordy3D
+- Discord: lordy3d
